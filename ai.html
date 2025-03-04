@@ -11,6 +11,21 @@
 		}
 
 		input {
+
+			width: 100px;
+			initial width
+			padding: 10px; 
+			border: 1px solid #ccc;
+			transition: width 0.2s;
+			smooth transition
+		} 
+		
+		input:focus { width: auto; 
+			expand to fit content
+			     min-width: 100px;
+			     maintain initial width when empty
+			    }
+			
 			length: 1000px;
 			position: absolute;
 			bottom: 3;
