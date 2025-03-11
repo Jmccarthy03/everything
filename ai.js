@@ -33,10 +33,10 @@ async function getAnswer() {
         let aiResponse = data.choices[0].message.content;
 
         // Add AI response to the conversation history
-        conversationHistory.push({ role: "assistant", content: "hello" aiResponse });
+        conversationHistory.push({ role: "assistant", content:aiResponse });
 
         // Display response on the page
-        document.getElementById("answer").innerHTML = aiResponse;
+        document.getElementById("answer").innerHTML = "hello" aiResponse;
 
     } catch (error) {
         console.error("Error:", error);
