@@ -1,44 +1,57 @@
-// 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
+ // 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
 
-// Stores the conversation history
-let conversationHistory = [];
+function tgpt(){
+	 prompt = "answer this question as if you are Donald Trump";
+	document.getElementById("trump").style.display="none";
+	document.getElementById("biden").style.display="none";
+	document.getElementById("title").innerHTML = "Trump Gpt";
+}
+
+function ab(){
+	 prompt = "answer this question as if you are Joe Biden";
+	document.getElementById("trump").style.display="none";
+	document.getElementById("biden").style.display="none";
+	document.getElementById("title").innerHTML = "Ask Biden";
+}
+
 
 async function getAnswer() {
-    let inputText = document.getElementById('question').value;
+	let inputText = document.getElementById('question').value;
+    //let prompt = "my last question was:" 
+	
+	let question = prompt + inputText;
+	console.log(question);
 
-    // Add user question to the conversation history
-    conversationHistory.push({ role: "user", content: inputText });
-
-    try {
-        const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Authorization": "Bearer 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"
-            },
-            body: JSON.stringify({
-                "model": "llama-3.3-70b-versatile",
-                "messages": conversationHistory,  // Send entire history
-                "temperature": 1,
-                "max_tokens": 1024
-            })
-        });
-
-        if (!response.ok) {
-            console.log(response);
-            throw new Error("Failed to fetch response");
-        }
-
-        const data = await response.json();
-        let aiResponse = data.choices[0].message.content;
-
-        // Add AI response to the conversation history
-        conversationHistory.push({ role: "assistant", content:aiResponse });
-
-        // Display response on the page
-        document.getElementById("answer").innerHTML = "hello" aiResponse;
-
-    } catch (error) {
-        console.error("Error:", error);
-    }
+	try {
+		const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/json",
+				"Authorization": "Bearer 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"
+			},
+			body: JSON.stringify({
+				"model": "llama-3.3-70b-versatile",
+				"messages": [{ "role": "user", "content": question }],
+				"temperature": 1,
+				"max_tokens": 1024
+			})
+		});
+		
+		if (!response.ok) {
+			console.log(response)
+			throw new Error("Failed to fetch verse");
+		}
+		const data = await response.json();
+		console.log(data.choices[0].message.content);
+		
+		document.getElementById("answer").innerHTML = data.choices[0].message.content;
+		let lastAnswer = data.choices[0].message.content;
+	} catch (error) {
+		console.error("Error:", error);
+	}
+	//let lastQuestion = inputText + "your last answer was:" + lastAnswer;
+	//document.getElementById("test").innerHTML = lastQuestion;
 }
+
+
+
