@@ -1,5 +1,7 @@
  // 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
 
+let prompt = "";
+
 function tgpt(){
 	 prompt = "answer this question as if you are Donald Trump";
 	document.getElementById("trump").style.display="none";
@@ -45,7 +47,7 @@ async function getAnswer() {
 		console.log(data.choices[0].message.content);
 		
 		document.getElementById("answer").innerHTML = data.choices[0].message.content;
-		let lastAnswer = data.choices[0].message.content;
+		//let lastAnswer = data.choices[0].message.content;
 	} catch (error) {
 		console.error("Error:", error);
 	}
