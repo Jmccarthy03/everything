@@ -1,0 +1,26 @@
+header, footer {
+	text-align: center;
+}
+ ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: green;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    li{
+      display: inline;
+      color: white;
+	  margin-right: 15px;
+    }
+
+    li a {
+      color: white;
+    }
+h1{
+	  margin-top: 18px;
+}

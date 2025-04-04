@@ -1,0 +1,54 @@
+body {
+    background-image: url('https://cdnassets.hw.net/ed/93/bbb91d0142bb907df8ae4620f824/orphanage-after.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#GameName {
+    font-size: 5em;
+    color: rgb(245, 17, 74);
+    padding-top: 1em;
+    text-align: center;
+}
+
+#PlayButton {
+    background-color: green;
+    color: white;
+    font-size: 4em;
+    
+
+    cursor: pointer;
+    padding: 1em;
+    margin-left: -2em;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+#Florida {
+    color: gray;
+    font-size: 2em;
+    text-align: left;
+}
+
+ ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: green;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    li{
+      display: inline;
+      color: white;
+	  margin-right: 15px;
+    }
+
+    li a {
+      color: white;
+    }
