@@ -20,21 +20,14 @@
 			color: blue;
 		}
 
-		input {
-			position: absolute;
+		div{
+			position: fixed;
 			bottom: 3;
-			left: 37%;
-			width: 300px;
+			left: 25%;
+			
 		}
+
 		
-		#askbutton {
-			background-color: green;
-			color: black;
-			border-color: green;
-			position: absolute;
-			bottom: 5;
-			left: 65%;
-		}
 		
 		 ul{
       list-style-type: none;
@@ -74,7 +67,9 @@
 </ul>
 	 <button id="trump" onclick= "tgpt()" >Trump GPT</button>
 	 <button id="biden" onclick= "ab()" >Ask Biden</button>
-	<input id="question" type="text">
+<div>
+	 <input id="question" type="text">
 	<button id="askbutton" onclick= "getAnswer()" >ask</button>
+</div>
 	<h2 id="answer"></h2>
  </body>
