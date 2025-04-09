@@ -14,7 +14,7 @@ function tgpt(){
 
 function ab(){
 	 prompt = "answer this question as if you are Joe Biden";
-	gertAnswer();
+	getAnswer();
 }
 
 
