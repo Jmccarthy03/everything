@@ -2,14 +2,19 @@
 
 let prompt = "";
 
+function clearPrompt(){
+	prompt = "";
+	getAnswer();
+}
+
 function tgpt(){
 	 prompt = "answer this question as if you are Donald Trump";
-	document.getElementById("title").innerHTML = "Trump Gpt";
+	getAnswer();
 }
 
 function ab(){
 	 prompt = "answer this question as if you are Joe Biden";
-	document.getElementById("title").innerHTML = "Ask Biden";
+	gertAnswer();
 }
 
 
