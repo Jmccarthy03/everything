@@ -33,7 +33,7 @@ async function getAnswer() {
 				"Authorization": "Bearer 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"
 			},
 			body: JSON.stringify({
-				"model": "llama-3.3-70b-versatile",
+				"model": "llama-4-scout-17b-16e-instruct",
 				"messages": [{ "role": "user", "content": question }],
 				"temperature": 1,
 				"max_tokens": 1024
