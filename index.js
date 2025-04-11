@@ -1,3 +1,4 @@
+let openHome = false
 		function checkinfo() {
 	const nameInput = document.getElementById('uname').value;
 	const passInput = document.getElementById('pword').value;
@@ -17,3 +18,4 @@
 			window.location.href = "ulhome.html";
 			
 		}
+	if (openHome === false) window.location.href = "index.html
