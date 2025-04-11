@@ -88,7 +88,11 @@
   <li><a href="Scammer.html">Microsoft Support</a></li>
 </ul>
 
+<div id="votd">
 
+<h2 id="clock">2pm</h2>
+</div>
+	
 <div id="votd">
 
 <h2>Verse of the Day:</h2>
@@ -123,7 +127,13 @@
 
 
     
-    
+    function updateClock(){
+	const d = new Date();
+	let time = d.toLocaleTimeString();
+	document.getElementById("clock").innerHTML = time;
+}
+    setInterval(updateClock, 1000); 
+	updateClock();
 
     
 
