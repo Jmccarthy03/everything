@@ -18,4 +18,4 @@ let openHome = false
 			window.location.href = "ulhome.html";
 			
 		}
-	if (openHome === false) window.location.href = "index.html
+	if (openHome === false) window.location.href = "index.html";
