@@ -20,6 +20,6 @@ let openHome = false
 		}
 	
 
-	function security(){
+	
 	if (openHome === false) window.location.href = "index.html";
-	}
+	
