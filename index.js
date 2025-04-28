@@ -7,19 +7,23 @@ let openHome = false
 			}
 		else if (passInput === "T@nn3r" && nameInput === "Tman")  {
 			window.location.href = "ulhome.html";
+			openHome = true;
 	}
 		else if (passInput === "12345678910" && nameInput === "OP_Gamer23194"){
 			window.location.href = "ulhome.html";
+			openHome = true;
 		}
         	else if (passInput === "Willisawesome" && nameInput === "Will.Myers") {
 			window.location.href = "ulhome.html";
+			openHome = true;
 			}
 		else if (passInput === "bypass" && nameInput === "bypass") {
 			window.location.href = "ulhome.html";
+			openHome = true;
 			}
 		}
 	
 
-	
-	//if (openHome === false) window.location.href = "index.html";
-	
+	function security() {
+		if (openHome === false) { window.location.href = "index.html"; }
+	}
