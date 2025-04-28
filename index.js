@@ -21,5 +21,5 @@ let openHome = false
 	
 
 	
-	if (openHome === false) window.location.href = "index.html";
+	//if (openHome === false) window.location.href = "index.html";
 	
