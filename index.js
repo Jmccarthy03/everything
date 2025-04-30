@@ -5,25 +5,30 @@ let openHome = false;
 	if (passInput === "Adminpass" && nameInput === "Admin") {
 			window.location.href = "ulhome.html";
 			sessionStorage.setItem("sec, true);
+			openHome = sessionStorage.getItem("sec");
 			}
 		else if (passInput === "T@nn3r" && nameInput === "Tman")  {
 			window.location.href = "ulhome.html";
 			sessionStorage.setItem("sec, true);
+			openHome = sessionStorage.getItem("sec");
 	}
 		else if (passInput === "12345678910" && nameInput === "OP_Gamer23194"){
 			window.location.href = "ulhome.html";
 			sessionStorage.setItem("sec, true);
+			openHome = sessionStorage.getItem("sec");
 		}
         	else if (passInput === "Willisawesome" && nameInput === "Will.Myers") {
 			window.location.href = "ulhome.html";
 			sessionStorage.setItem("sec, true);
+			openHome = sessionStorage.getItem("sec");
 			}
 		else if (passInput === "bypass" && nameInput === "bypass") {
 			window.location.href = "ulhome.html";
 			sessionStorage.setItem("sec, true);
+			openHome = sessionStorage.getItem("sec");
 			}
 		}
-	let openHome = sessionStorage.getItem("sec");
+	
 
 	function security() {
 		if (openHome === false) { window.location.href = "index.html"; }
