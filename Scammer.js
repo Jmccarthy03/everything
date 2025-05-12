@@ -40,6 +40,6 @@ function goHome() {
     window.location.href = "ulhome.html";
   }  
 
-document.getElementById('test') = localStorage.getItem("test")
+document.getElementById('test') = localStorage.getItem("test");
 
 
