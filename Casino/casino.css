@@ -5,13 +5,13 @@ body{
 }
 
 #slots{
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 50%;
 }
 
 #roulette{
-  position: absolute;
+  position: relative;
   left: 25%;
   top: 25%;
 }
