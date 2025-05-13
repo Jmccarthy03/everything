@@ -1,4 +1,4 @@
-<script>
+
   // This detects iOS standalone mode
   if (('standalone' in window.navigator) && window.navigator.standalone) {
     document.addEventListener('click', function(event) {
@@ -9,4 +9,4 @@
       }
     }, false);
   }
-</script>
+
