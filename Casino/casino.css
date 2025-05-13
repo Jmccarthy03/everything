@@ -8,11 +8,13 @@ body{
   position: relative;
   left: 50%;
   top: 50%;
+  color: white;
 }
 
 #roulette{
   position: relative;
   left: 25%;
   top: 25%;
+  color: white;
 }
 
