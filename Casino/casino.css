@@ -7,7 +7,7 @@ body{
 #slots{
   position: relative;
   left: 50%;
-  bottom: 3;
+  top: 50%;
 }
 
 #roulette{
