@@ -1,4 +1,4 @@
-const symbols = ["🍒", "🍋", "🍊", "🍇", "🔔", "💎"];
+const symbols = ["🍒", "🍋", "🍊", "7", "🔔", "💎"];
 
 function spin() {
   const reels = [
