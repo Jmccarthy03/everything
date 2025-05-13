@@ -3,3 +3,16 @@ body{
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
+#slots{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+#roulette{
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+
