@@ -1,0 +1,45 @@
+body {
+         
+            background-color: #5552;
+			
+        }
+		
+	
+		
+
+		
+       header {
+    text-align: center;
+    background-color: red;
+    color: white;
+    margin-top: 17px;
+        }
+
+   ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: green;
+	text-align: center;
+	position: fixed;
+      	top: 0;
+      	width: 100%;
+	text-decoration: none;
+  
+    }
+
+    li{
+      	display: inline;
+      	color: white;
+	margin-right: 15px;
+	text-decoration: none;
+    }
+
+    li a {
+      color: white;
+      text-decotation: none;
+    }
+
+  .active {
+    color: blue;
+  }
