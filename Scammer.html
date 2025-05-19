@@ -23,20 +23,21 @@
 
 		input {
 			position: absolute;
-			bottom: 3;
-			left: 37%;
 			width: 300px;
 		}
 		
 		#askbutton {
 			background-color: green;
 			color: black;
-			border-color: green;
+			border-color:
 			position: absolute;
-			bottom: 5;
-			left: 65%;
 		}
+
 		
+		#ask{
+			bottom: 3;
+			left: 37%;
+		}
 		 
 	</style>
  </head>
@@ -61,8 +62,10 @@
 	
 	
     <h3 id="return"></h3>
+	<div id="ask">
 	<input id="question" type="text">
 	<button id="askbutton" onclick= "getAnswer()" >ask</button>
+	</div>
 	<h2 id="answer"></h2>
  <script src="app.js"></script>
  </body> 
