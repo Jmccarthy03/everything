@@ -22,11 +22,13 @@
 			//sessionStorage.setItem("sec, true);
 			//openHome = sessionStorage.getItem("sec");
 			}
-		else if (passInput === "bypass" && nameInput === "bypass") {
+		else if (passInput === "Bypass" && nameInput === "Bypass") {
 			window.location.href = "ulhome.html";
 			//sessionStorage.setItem("sec, true);
 			//openHome = sessionStorage.getItem("sec");
 			}
+		else {
+			document.getElementById('signin').innerHtml = "Your Username and/or Password are incorrect"
 		}
 	
 
