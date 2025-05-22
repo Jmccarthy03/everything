@@ -28,7 +28,7 @@
 			//openHome = sessionStorage.getItem("sec");
 			}
 		else {
-			document.getElementById('signin').innerHTML = "Your Username and/or Password are incorrect";
+			document.getElementById('signin').innerTEXT = "Your Username and/or Password are incorrect";
 		}
 	
 
