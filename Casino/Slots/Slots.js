@@ -35,5 +35,5 @@ function spin() {
         result.textContent = "Try again!";
       }
     }
-  }, 100); // speed of spin (ms)
+  }, 50); // speed of spin (ms)
 }
