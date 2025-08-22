@@ -18,4 +18,5 @@ body {
   display: flex;
   justify-content: center;
   background-color: #eee;
+  color: red;
 }
