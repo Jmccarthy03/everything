@@ -11,13 +11,13 @@
 			window.location.href = "ulhome.html";
 			//sessionStorage.setItem("sec, true);
 			//openHome = sessionStorage.getItem("sec");
-	}
+		}
 		else if (passInput === "12345678910" && nameInput === "OP_Gamer23194"){
 			window.location.href = "ulhome.html";
 			//sessionStorage.setItem("sec, true);
 			//openHome = sessionStorage.getItem("sec");
 		}
-        	else if (passInput === "Willisawesome" && nameInput === "Will.Myers") {
+        else if (passInput === "Willisawesome" && nameInput === "Will.Myers") {
 			window.location.href = "ulhome.html";
 			//sessionStorage.setItem("sec, true);
 			//openHome = sessionStorage.getItem("sec");
@@ -27,9 +27,9 @@
 			//sessionStorage.setItem("sec, true);
 			//openHome = sessionStorage.getItem("sec");
 			}
-		else {
-			document.getElementById('signin').innerTEXT = "Your Username and/or Password are incorrect";
-		}
+		//else {
+			//document.getElementById('signin').innerTEXT = "Your Username and/or Password are incorrect";
+		//}
 	
 
 	//function security() {
