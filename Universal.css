@@ -43,3 +43,8 @@ body {
   .active {
     color: blue;
   }
+
+	#signinbox {
+		border-style: solid;
+		left: 35%;
+	}
