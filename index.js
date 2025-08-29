@@ -27,9 +27,9 @@
 			//sessionStorage.setItem("sec, true);
 			//openHome = sessionStorage.getItem("sec");
 			}
-		//else {
-			//document.getElementById('signin').innerTEXT = "Your Username and/or Password are incorrect";
-		//}
+		else {
+			document.getElementById('signin').innerTEXT = "Your Username and/or Password are incorrect";
+			}
 		}
 
 	//function security() {
