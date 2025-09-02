@@ -12,7 +12,7 @@ async function getAnswer() {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
-				"Authorization": "Bearer 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"
+				"Authorization": "Bearer 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"
 			},
 			body: JSON.stringify({
 				"model": "llama-3.3-70b-versatile",
