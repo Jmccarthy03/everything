@@ -47,6 +47,7 @@ body {
 	#signinbox {
 		border-style: solid;
 		left: 37%;
+		position: fixed;
 	}
 	#signin {
 		color: red;
