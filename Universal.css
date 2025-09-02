@@ -48,7 +48,7 @@ body {
 		border-style: solid;
 		left: 39%;
 		bottom: 39%;
-		position: relative;
+		position: static;
 		width: 150px;
 		height: 30%;
 	}
