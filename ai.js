@@ -30,7 +30,7 @@ async function getAnswer() {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
-				"Authorization": "Bearer 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"
+				"Authorization": "Bearer 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"
 			},
 			body: JSON.stringify({
 				"model": "openai/gpt-oss-20b",
@@ -55,6 +55,7 @@ async function getAnswer() {
 	//let lastQuestion = inputText + "your last answer was:" + lastAnswer;
 	//document.getElementById("test").innerHTML = lastQuestion;
 }
+
 
 
 
