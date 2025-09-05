@@ -22,7 +22,7 @@ async function getAnswer() {
 	let inputText = document.getElementById('question').value;
     //let prompt = "my last question was:" 
 	
-	let question = prompt + inputText;
+	let question = inputText;
 	console.log(question);
 
 	try {
@@ -34,7 +34,7 @@ async function getAnswer() {
 			},
 			body: JSON.stringify({
 				"model": "openai/gpt-oss-20b",
-				"messages": [{ "role": "user", "content": question }],
+				"messages": [{ "role": "user", "content": question },{"role": "system", "content": prompt}],
 				"temperature": 1,
 				"max_tokens": 1024
 			})
@@ -55,6 +55,7 @@ async function getAnswer() {
 	//let lastQuestion = inputText + "your last answer was:" + lastAnswer;
 	//document.getElementById("test").innerHTML = lastQuestion;
 }
+
 
 
 
