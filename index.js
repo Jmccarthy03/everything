@@ -11,6 +11,7 @@
 			window.location.href = "ulhome.html";
 			//sessionStorage.setItem("sec, true);
 			//openHome = sessionStorage.getItem("sec");
+			window.alert("Malware Detected" "Please Use an Anti-Virus program before your data is lost"); 
 		}
 		else if (passInput === "12345678910" && nameInput === "OP_Gamer23194"){
 			window.location.href = "ulhome.html";
