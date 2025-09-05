@@ -48,9 +48,9 @@ body {
 		border-style: solid;
 		left: 39%;
 		bottom: 39%;
-		position: static;
-		width: 150px;
-		height: 30%;
+		position: absolute;
+		width: 175px;
+		height: 25%;
 	}
 	#signin {
 		color: red;
